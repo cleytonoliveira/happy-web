@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FiPlus } from 'react-icons/fi';
 
+import '../styles/pages/orphanages-map.css';
+
 import mapMarkerImg from '../images/map-marker.svg';
 
 class OrphanagesMap extends Component {
@@ -21,7 +23,8 @@ class OrphanagesMap extends Component {
             <span>Paraná</span>
           </footer>
 
-          <div>MAPA</div>
+          <div></div>
+          
           <Link to="/" className="create-orphanage">
             <FiPlus size={32} color="#FFF" />
           </Link>
