@@ -9,7 +9,6 @@ body {
   background: rgb(235, 242, 245);
 }
 
-body input button textarea {
-  font: 600 18px;
-  font-family: Nunito, sans-serif;
+body, input, button, textarea {
+  font: 600 18px Nunito, sans-serif;
 }
